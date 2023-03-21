@@ -1,0 +1,9 @@
+.separar{
+    margin: 5px;
+}
+.separarDiv{
+    margin-top: 3px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
