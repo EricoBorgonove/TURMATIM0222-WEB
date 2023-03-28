@@ -1,0 +1,26 @@
+.externo{
+    background-color: rgb(241, 241, 241);
+    min-height: 800px;
+}
+.ajusteh1{
+    display: flex;
+    justify-content: center;
+ 
+}
+.interno{
+    margin: 5px 0px 0px 0px;
+}
+hr{
+    margin: 0px;
+}
+.borda{
+    border: 1px solid rgb(170,170,170);
+    border-radius: 5px;
+    margin: 10px ;
+    min-height: 500px;
+}
+.bt:hover{
+    color: blue;
+    background-color: rgb(241, 241, 241);
+    
+}
