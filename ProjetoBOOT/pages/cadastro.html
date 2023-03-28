@@ -55,7 +55,7 @@
       </div>
     </nav>
   </div>
-  <div class="container">
+  <div class="container-md">
     <div class="externo">
 
       <div class="ajusteh1">
@@ -67,14 +67,24 @@
 
       <div class="borda">
 
-        <form action="">
-          <div>
-            area dos inputs
+        <form class="formu" action="">
+          <div class="container-sm flexinput ">
+            <div class="form-floating mb-3 col-6 me-2">
+              <input type="text" class="form-control" id="floatingInput" placeholder="nome">
+              <label for="floatingInput">Nome</label>
+            </div>
+            <div class="form-floating mb-3 col-6 me-2">
+              <input type="text" class="form-control" id="floatingInput" placeholder="sobrenome">
+              <label for="floatingInput">Sobrenome</label>
+            </div>            
           </div>
 
+
           <div>
-            <button class="btn opacity-50 bt btn-primary btn-opacity-25" 
+            <button class="btn opacity-50 bt btn-primary " 
             type="submit">Salvar</button>
+            <button class="btn opacity-50 bt btn-primary " 
+            type="reset">Limpar</button>            
           </div>
 
         </form>

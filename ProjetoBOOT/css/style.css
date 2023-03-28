@@ -24,3 +24,10 @@ hr{
     background-color: rgb(241, 241, 241);
     
 }
+.formu{
+    padding: 10px 10px  0px 10px;
+}
+.flexinput{
+    display: flex;
+    flex-direction: row;
+}
