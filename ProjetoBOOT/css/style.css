@@ -31,3 +31,13 @@ hr{
     display: flex;
     flex-direction: row;
 }
+.item span{
+    font-size: 13px;
+}
+.item h3{
+    font-size: 16px; 
+    font-weight: 600;
+}
+.item img{
+    margin-bottom: 5px;
+}
