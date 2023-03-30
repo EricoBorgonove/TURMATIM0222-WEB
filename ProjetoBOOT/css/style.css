@@ -41,3 +41,7 @@ hr{
 .item img{
     margin-bottom: 5px;
 }
+.item:hover{
+ font-weight: 900;
+ font-size: 16px;
+}

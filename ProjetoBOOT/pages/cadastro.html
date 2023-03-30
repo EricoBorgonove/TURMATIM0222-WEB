@@ -68,23 +68,100 @@
       <div class="borda">
 
         <form class="formu" action="">
-          <div class="container-sm flexinput ">
-            <div class="form-floating mb-3 col-6 me-2">
+          <div class="container flexinput ">
+            <div class="form-floating mb-3 col-md-6  me-2">
               <input type="text" class="form-control" id="floatingInput" placeholder="nome">
               <label for="floatingInput">Nome</label>
             </div>
-            <div class="form-floating mb-3 col-6 me-2">
+            <div class="form-floating mb-3 col-md-6  me-2">
               <input type="text" class="form-control" id="floatingInput" placeholder="sobrenome">
               <label for="floatingInput">Sobrenome</label>
-            </div>            
+            </div>
+          </div>
+          
+          <div class="container flexinput ">
+            <div class="mb-3 col-md-6  me-2">
+              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Nacionalidade</option>
+                <option value="1">Brasil</option>
+                <option value="2">Venezuela</option>
+                <option value="3">Haiti</option>
+                <option value="4">Bolivia</option>
+                <option value="5">Colômbia</option>
+              </select>
+            </div>
+            <div class=" mb-3 col-md-6  me-2">
+              <select disabled class="form-select form-select-lg" aria-label=".form-select-sm example">
+                <option selected>Naturalidade</option>
+                <option value="1">Amazonas</option>
+                <option value="2">Pará</option>
+                <option value="3">Roraima</option>
+                <option value="4">São Paulo</option>
+                <option value="5">Acre</option>
+                <option value="6">Rio de Janeiro</option>
+              </select>
+            </div>
+          </div>
+          <div class="container flexinput ">
+            <div class="mb-3 col-md-3  me-2 ">
+              <label for="">Dt Nascimento: </label>
+              <input class="form-select-lg" type="date" name="" id="">
+            </div>
+            <div class="form-floating mb-3 col-md-5  me-2">
+              <input type="number" class="form-control" id="floatingInput" placeholder="CPF">
+              <label for="floatingInput">CPF</label>
+            </div>
+            <div class="form-floating mb-3 col-md-4  me-2">
+              <input type="number" class="form-control" id="floatingInput" placeholder="RG">
+              <label for="floatingInput">RG</label>
+            </div>
+          </div>
+
+          <div class="container flexinput ">
+           <div class="mb-3 col-md-6">
+            
+              <label for="">Gênero</label>
+          
+            
+            
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Masculino
+              </label>
+            
+            
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Feminino
+              </label>
+            
+            
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Outros
+              </label>
+           
+          </div>
+            <div class="form-floating mb-3 col-md-6  me-2">
+              <input type="text" disabled class="form-control" id="floatingInput" placeholder="Outros">
+              <label for="floatingInput">Outros</label>
+            </div>
+
+
           </div>
 
 
+
+
+
+
+
+
+
+          <!-- abaixo os botoes -->
           <div>
-            <button class="btn opacity-50 bt btn-primary " 
-            type="submit">Salvar</button>
-            <button class="btn opacity-50 bt btn-primary " 
-            type="reset">Limpar</button>            
+            <button class="btn opacity-50 bt btn-primary " type="submit">Salvar</button>
+            <button class="btn opacity-50 bt btn-primary " type="reset">Limpar</button>
           </div>
 
         </form>
