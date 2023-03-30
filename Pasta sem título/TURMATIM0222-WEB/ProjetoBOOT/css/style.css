@@ -17,7 +17,7 @@ hr{
     border: 1px solid rgb(170,170,170);
     border-radius: 5px;
     margin: 10px ;
-   
+    min-height: 500px;
 }
 .bt:hover{
     color: blue;
@@ -44,7 +44,4 @@ hr{
 .item:hover{
  font-weight: 900;
  font-size: 16px;
-}
-#data{
-    border: none;
 }

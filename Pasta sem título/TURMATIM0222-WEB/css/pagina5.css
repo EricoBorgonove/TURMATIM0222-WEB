@@ -10,7 +10,6 @@ body{
     min-height: 100vh;
     background: #000;
 }
-
 .container{
     position: relative;
     width: 100%;
@@ -55,12 +54,6 @@ body{
     animation: rotate5 2s linear infinite;
     -webkit-animation: rotate5 2s linear infinite;
 }
-.ring:nth-child(6){
-    border-bottom-width: 8px;
-    border-color: rgb(192, 151, 182);
-    animation: rotate6 2s linear infinite;
-    -webkit-animation: rotate6 2s linear infinite;
-}
 @keyframes rotate1{
     0%{
         transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg) ;
@@ -99,13 +92,5 @@ body{
     }
     100%{
         transform: rotateX(35deg) rotateY(45deg) rotateZ(360deg) ;
-    }
-}
-@keyframes rotate6{
-    0%{
-        transform: rotateX(5deg) rotateY(45deg) rotateZ(360deg) ;
-    }
-    100%{
-        transform: rotateX(5deg) rotateY(45deg) rotateZ(0deg) ;
     }
 }
