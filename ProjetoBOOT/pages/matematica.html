@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link rel="stylesheet" href="/css/style.css">
+    <title>IMC</title>
+</head>
+<body>
+
+    <div>
+        <label for="">Numero1</label>
+        <input type="text" id="numero1">
+    </div>
+    <div>
+        <label for="">Numero2</label>
+        <input type="text" onfocus="apagarErro()" id="numero2">
+        <label for="" id="erroZero"></label>
+    </div>
+
+
+    <div>
+        <button onclick="somar()">Somar</button>
+        <button onclick="subtrair()">Subtrair</button>
+        <button onclick="multiplicar()">Multiplicar</button>
+        <button onclick="dividir()">Dividir</button>
+    </div>
+
+    <div>
+        <label for="">Resultado</label>
+        <input type="text" id="resultado" disabled>
+    </div>
+    <div>
+        <button onclick="limpar()">Limpar</button>
+    </div>
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Não apagar a linha abaixo !! -->
+  <script src="/scripts/matematica.js"></script>
+</body>
+</html>
