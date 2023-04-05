@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/css/bootstrap.min.css">
+    <title>Calculo IMC</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="row">
+                    <div class="form-floating  col-3 mb-3 me-2 pe-0 ps-0 ms-0">
+                        <input type="number" id="peso" class="form-control" id="floatingInput" placeholder="Peso">
+                        <label class="ms-2" for="floatingInput">Peso</label>
+                    </div>
+                    <div class="form-floating col-3 mb-3 me-0 pe-0 ps-0 ms-0">
+                        <input type="number" id="altura" class="form-control" id="floatingInput" placeholder="Altura">
+                        <label class="ms-2" for="floatingInput">Altura</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="col-3 btn btn-light me-2" onclick="calcularIMC()">Calcular</button>
+                    <button class="col-3 btn btn-light">Limpar</button>
+                </div>
+
+                <div class="row">
+                    <label class="col-3"  id="imc" for=""></label>
+                    <label class="col-3" id="msg" for=""></label>
+                </div>
+
+
+
+            </fieldset>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- Não Apagar abaixo dessa linha -->
+    <script src="/scripts/imc.js"></script>
+    <script src="/scripts/js/bootstrap.min.js"></script>
+</body>
+
+</html>
